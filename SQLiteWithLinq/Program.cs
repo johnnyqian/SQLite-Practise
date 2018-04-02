@@ -1,4 +1,5 @@
 ﻿// Using SQLite database in .NET with LINQ to SQL and Entity Framework 6, https://vijayt.com/post/using-sqlite-database-in-net-with-linq-to-sql-and-entity-framework-6/
+// SQLite LINQ Provider Data Context, https://stackoverflow.com/questions/22561248/sqlite-linq-provider-data-context
 
 using System;
 using System.Data.Linq;

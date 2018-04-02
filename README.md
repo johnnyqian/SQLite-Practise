@@ -49,6 +49,11 @@ Official website: http://system.data.sqlite.org
 Install from [nuget.org](https://www.nuget.org/packages/System.Data.SQLite.Core/) :
 `Install-Package System.Data.SQLite.Core -Version 1.0.108`
 
+> Be careful that the package `System.Data.SQLite` is a collection of below packages:
+> 1. System.Data.SQLite.Core
+> 2. System.Data.SQLite.Linq
+> 3. System.Data.SQLite.EF6
+
 ## Reference
 
 * [SQLite connection strings](https://www.connectionstrings.com/sqlite/)
