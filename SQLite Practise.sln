@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{001CBE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteWithLinq", "SQLiteWithLinq\SQLiteWithLinq.csproj", "{426DFD44-18AA-4563-AB44-1D1D2338A109}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteWithEF", "SQLiteWithEF\SQLiteWithEF.csproj", "{6707C878-C140-4E46-A757-48B948CB043A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{426DFD44-18AA-4563-AB44-1D1D2338A109}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{426DFD44-18AA-4563-AB44-1D1D2338A109}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{426DFD44-18AA-4563-AB44-1D1D2338A109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6707C878-C140-4E46-A757-48B948CB043A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6707C878-C140-4E46-A757-48B948CB043A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6707C878-C140-4E46-A757-48B948CB043A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6707C878-C140-4E46-A757-48B948CB043A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
