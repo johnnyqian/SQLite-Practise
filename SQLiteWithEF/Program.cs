@@ -1,8 +1,12 @@
-﻿using System;
+﻿// Getting started with SQLite and Entity Framework, http://blog.rniemand.com/getting-started-with-sqlite-and-entity-framework/
+// SQLiteCodeFirst, https://github.com/msallin/SQLiteCodeFirst
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using SQLite.CodeFirst;
 
@@ -32,6 +36,7 @@ namespace SQLiteWithEF
         }
     }
 
+    [SuppressMessage("ReSharper", "UnusedAutoPropertyAccessor.Global")]
     public class MyDbContext : DbContext
     {
         public MyDbContext() : base("name=SQLiteContext")
