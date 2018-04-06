@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteWithLinq", "SQLiteWit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteWithEF", "SQLiteWithEF\SQLiteWithEF.csproj", "{6707C878-C140-4E46-A757-48B948CB043A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteWithEFMigrations", "SQLiteWithEFMigrations\SQLiteWithEFMigrations.csproj", "{77D685EE-6652-4F9F-8103-42A7F3242284}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{6707C878-C140-4E46-A757-48B948CB043A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6707C878-C140-4E46-A757-48B948CB043A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6707C878-C140-4E46-A757-48B948CB043A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D685EE-6652-4F9F-8103-42A7F3242284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D685EE-6652-4F9F-8103-42A7F3242284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D685EE-6652-4F9F-8103-42A7F3242284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D685EE-6652-4F9F-8103-42A7F3242284}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
